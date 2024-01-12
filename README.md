@@ -1,9 +1,15 @@
-# 모던 JS 딥다이브, 프론트 면접 스터디
+# <p id="top">모던 JS 딥다이브, 프론트 면접 스터디</p>
 
 - 목적: 모던 JS 딥 다이브 책 1독과 프론트 엔드 면접 스터디
-- 참여인원: 5명
 - 예상 일정: 주 1회 2시간-3시간(일요일 오후 3시), 주 약 3챕터씩 13~14주 정도 진행(제외 챕터 3장 정도 있음)
 - 사전준비: 챕터는 각자 다 요약해서 오기(+챕터별 면접 예상 질문 1개씩 쩌리, 챕터는 2개당 하나)
+
+## <a id="멤버-구성">멤버 구성</a>
+|<span style="font-size:16px">TedPool</span>|<span style="font-size:16px">soorokim</span>|<span style="font-size:16px">KoGaYoung</span>|
+|:-:|:-:|:-:|
+|<a href="https://github.com/devtedlee"><img src="https://avatars.githubusercontent.com/devtedlee" height=150 width=150></a>|<a href="https://github.com/soorokim"><img src="https://avatars.githubusercontent.com/soorokim" height=150 width=150></a>|<a href="https://github.com/KoGaYoung"><img src="https://avatars.githubusercontent.com/KoGaYoung" height=150 width=150></a>|<a href="https://github.com/dororodoroddo"><img src="https://avatars.githubusercontent.com/dororodoroddo" height=150 width=150></a>|
+|<span style="font-size:16px">도로로도로또</span>|<span style="font-size:16px">허민</span>||
+|<a href="https://github.com/dororodoroddo"><img src="https://avatars.githubusercontent.com/dororodoroddo" height=150 width=150></a>|<a href="https://github.com/hhhminme"><img src="https://avatars.githubusercontent.com/hhhminme" height=150 width=150></a>||
 
 ## 스터디 진행 방식
 
@@ -27,3 +33,6 @@
 - 11주차 39~41장
 - 12주차 42~45장(43.3 제외 XMLHttpRequest)
 - 13주차 47, 48, 49장
+
+<br/>
+ <p align="right"><a href="#top">(⬆️ Top)</a></p>
