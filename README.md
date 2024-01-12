@@ -5,7 +5,7 @@
 - 사전준비: 챕터는 각자 다 요약해서 오기(+챕터별 면접 예상 질문 1개씩 쩌리, 챕터는 2개당 하나)
 
 ## <a id="멤버-구성">멤버 구성</a>
-|<span style="font-size:16px">TedPool</span>|<span style="font-size:16px">soorokim</span>|<span style="font-size:16px">KoGaYoung</span>|
+|<span style="font-size:16px">테드풀</span>|<span style="font-size:16px">soorokim</span>|<span style="font-size:16px">KoGaYoung</span>|
 |:-:|:-:|:-:|
 |<a href="https://github.com/devtedlee"><img src="https://avatars.githubusercontent.com/devtedlee" height=150 width=150></a>|<a href="https://github.com/soorokim"><img src="https://avatars.githubusercontent.com/soorokim" height=150 width=150></a>|<a href="https://github.com/KoGaYoung"><img src="https://avatars.githubusercontent.com/KoGaYoung" height=150 width=150></a>|<a href="https://github.com/dororodoroddo"><img src="https://avatars.githubusercontent.com/dororodoroddo" height=150 width=150></a>|
 |<span style="font-size:16px">도로로도로또</span>|<span style="font-size:16px">허민</span>||
@@ -28,10 +28,10 @@
 - 6주차 19, 21, 22장
 - 7주차 23~25장
 - 8주차 26~28, 29장(28, 29 쩌리)
-- 9주차 30~34(30~34장 쩌리), 35장
+- 9주차 30-34(30-34장 쩌리), 35장
 - 10주차 36~38장
-- 11주차 39~41장
-- 12주차 42~45장(43.3 제외 XMLHttpRequest)
+- 11주차 39-41장
+- 12주차 42-45장(43.3 제외 XMLHttpRequest)
 - 13주차 47, 48, 49장
 
 <br/>
