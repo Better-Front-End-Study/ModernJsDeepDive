@@ -8,7 +8,7 @@
 |<span style="font-size:16px">테드풀</span>|<span style="font-size:16px">soorokim</span>|<span style="font-size:16px">KoGaYoung</span>|
 |:-:|:-:|:-:|
 |<a href="https://github.com/devtedlee"><img src="https://avatars.githubusercontent.com/devtedlee" height=150 width=150></a>|<a href="https://github.com/soorokim"><img src="https://avatars.githubusercontent.com/soorokim" height=150 width=150></a>|<a href="https://github.com/KoGaYoung"><img src="https://avatars.githubusercontent.com/KoGaYoung" height=150 width=150></a>|<a href="https://github.com/dororodoroddo"><img src="https://avatars.githubusercontent.com/dororodoroddo" height=150 width=150></a>|
-|<span style="font-size:16px">도로로도로또</span>|<span style="font-size:16px">허민</span>||
+|<span style="font-size:16px">**도로로도로또**</span>|<span style="font-size:16px">**허민**</span>||
 |<a href="https://github.com/dororodoroddo"><img src="https://avatars.githubusercontent.com/dororodoroddo" height=150 width=150></a>|<a href="https://github.com/hhhminme"><img src="https://avatars.githubusercontent.com/hhhminme" height=150 width=150></a>||
 
 ## 스터디 진행 방식
