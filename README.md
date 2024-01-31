@@ -28,6 +28,17 @@
   - 꼬리질문 제한 갯수 정하기(질문당 두 번)
 - 면접 한명씩 끝나면 바로 피드백
 
+## 면접 질문 실행 방법
+```
+yarn install && yarn start
+```
+
+그러면 아래와 같이 질문 파일을 고를 수 있는 CLI가 나옵니다. 화살표를 이용하여 원하는 파일을 선택 후 엔터를 눌러주세요.
+<img width="438" alt="image" src="https://github.com/Better-Front-End-Study/ModernJsDeepDive/assets/54930877/82e1122f-e6c1-40d5-a7b6-43ec9c25a679">
+
+그러면 아래와 같이 중복되지 않는 임의의 질문이 출력되게 됩니다.
+<img width="1139" alt="image" src="https://github.com/Better-Front-End-Study/ModernJsDeepDive/assets/54930877/d774adc5-bed1-4ca9-a2f6-c27e10f7e594">
+
 ## 기타 규칙
 
 - 주기적으로 장소 예약에 대한 확인을 해보자(월 1회)
