@@ -1,0 +1,15 @@
+{
+  "name": "modern-js-deep-dive",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "repository": "https://github.com/Better-Front-End-Study/ModernJsDeepDive.git",
+  "author": "더 좋은 프론트 스터디방",
+  "license": "MIT",
+  "scripts": {
+    "start": "node core/generateRandomQuestion.mjs"
+  },
+  "dependencies": {
+    "inquirer": "^9.2.13"
+  }
+}
