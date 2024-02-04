@@ -31,7 +31,10 @@ const getFilesFromDirectory = () => {
  */
 const readQuestionsFromFile = (fileName) => {
   try {
-    const filePath = path.resolve(__dirname, `../${QUESTIONS_DIR_PATH}/${fileName}`);
+    const filePath = path.resolve(
+      __dirname,
+      `../${QUESTIONS_DIR_PATH}/${fileName}`
+    );
     const fileContents = fs.readFileSync(filePath, 'utf8');
     const questionsJson = JSON.parse(fileContents);
     return questionsJson.questions;
@@ -85,12 +88,17 @@ const main = async () => {
   }
 
   while (remainingQuestions.length) {
-    const numElements = Math.min(3, remainingQuestions.length);
-    const selectedQuestions = selectRandomElements(remainingQuestions, numElements);
+    const numElements = Math.min(2, remainingQuestions.length);
+    const selectedQuestions = selectRandomElements(
+      remainingQuestions,
+      numElements
+    );
     console.log('❤️질문 입니다.❤️\n ', selectedQuestions);
 
     // Remove the selected questions from the remaining questions
-    remainingQuestions = remainingQuestions.filter((question) => !selectedQuestions.includes(question));
+    remainingQuestions = remainingQuestions.filter(
+      (question) => !selectedQuestions.includes(question)
+    );
 
     if (remainingQuestions.length) {
       await waitForEnter();
