@@ -51,7 +51,7 @@ const readQuestionsFromFile = (fileName) => {
     );
     const fileContents = fs.readFileSync(filePath, "utf8");
     const questionsJson = JSON.parse(fileContents);
-    return questionsJson.questions;
+    return questionsJson;
   } catch (error) {
     console.error("파일을 읽는 도중 에러가 발생하였습니다.", error);
     return [];
