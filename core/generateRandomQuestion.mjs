@@ -90,14 +90,14 @@ const exceptOwnQuestion = (array, interviewee) => {
  * 사용자가 엔터키를 누를 때까지 기다린다.
  * @returns {Promise<void>}
  **/
-const waitForEnter = () => {
+const waitForEnter = (message = "계속하려면 엔터키를 눌러주세요...👍\n") => {
   const rl = readline.createInterface({
     input: process.stdin,
     output: process.stdout,
   });
 
   return new Promise((resolve) =>
-    rl.question("계속하려면 엔터키를 눌러주세요...👍", (ans) => {
+    rl.question(message, (ans) => {
       rl.close();
       resolve();
     })
