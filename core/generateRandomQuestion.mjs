@@ -77,6 +77,16 @@ const selectRandomElements = (array, numElements = 3) => {
 };
 
 /**
+ * 주어진 배열에서 피면접자 질문을 제외한다.
+ * @param {string[]} array 원본배열
+ * @param {string} interviewee 피면접자
+ * @returns {string[]} 무작위로 섞인 새 배열
+ */
+const exceptOwnQuestion = (array, interviewee) => {
+  return array.filter(({ author }) => author !== interviewee);
+};
+
+/**
  * 사용자가 엔터키를 누를 때까지 기다린다.
  * @returns {Promise<void>}
  **/
