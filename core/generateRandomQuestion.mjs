@@ -3,6 +3,7 @@ import path from "path";
 import { fileURLToPath } from "url";
 import readline from "readline";
 import inquirer from "inquirer";
+import chalk from "chalk";
 
 const QUESTIONS_DIR_PATH = "interview-questions";
 
@@ -169,15 +170,17 @@ const main = async () => {
       numElements
     );
 
-    await waitForEnter(`답변자: ${selectedInterviewee}\n`);
+    await waitForEnter(`답변자: ${chalk.bold.green(selectedInterviewee)}\n`);
 
     for (let i = 0; i < selectedQuestions.length; i++) {
       const { question, keyword, author } = selectedQuestions[i];
 
       await waitForEnter(
-        `❤️${
-          i + 1
-        }번째 질문 입니다.❤️ (${author})\n ${question} \n keyword: ${keyword} \n `
+        `❤️${i + 1}번째 질문 입니다.❤️ (${chalk.bold.blue(
+          author
+        )})\n ${chalk.bold.yellow(question)} \n keyword: ${chalk.gray(
+          keyword
+        )} \n `
       );
     }
 
@@ -190,9 +193,9 @@ const main = async () => {
     currentIntervieweeIndex =
       (currentIntervieweeIndex + 1) % interviewees.length;
 
-    if (remainingQuestions.length) {
-      await waitForEnter();
-    }
+    // if (remainingQuestions.length) {
+    //   await waitForEnter();
+    // }
   }
 
   console.log("모든 질문이 선택되었습니다. 다음에 또 만나요!😎");
