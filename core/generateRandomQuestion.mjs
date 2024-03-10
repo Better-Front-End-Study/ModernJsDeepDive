@@ -24,10 +24,10 @@ let allQuestions = [];
 let remainingQuestions = [];
 
 // 면접 참여자
-let interviewers = [];
+let interviewees = [];
 
-// 인터뷰어의 현재 위치를 추적하는 변수
-let currentInterviewerIndex = 0;
+// 현재 피면접자를 추적하는 변수
+let currentIntervieweeIndex = 0;
 
 /**
  * 파일명 리스트를 반환합니다.
@@ -105,33 +105,33 @@ const waitForEnter = (message = "계속하려면 엔터키를 눌러주세요...
 };
 
 /**
- * 인터뷰어 입력받아 저장
+ * 피면접자 입력받아 저장
  * @param {*} num {number}
  */
-const askForInterviewerNames = async (num) => {
+const askForIntervieweeNames = async (num) => {
   const questions = [];
   for (let i = 0; i < num; i++) {
     questions.push({
       type: "input",
-      name: `interviewer${i}`,
+      name: `interviewee${i}`,
       message: `멋쟁이 참석자 #${i + 1}의 이름은?`,
     });
   }
 
   const answers = await inquirer.prompt(questions);
-  interviewers = Object.values(answers);
-  console.log(`${interviewers} 의 면접을 시작합니다 ( ˙◞˙ )`);
+  interviewees = Object.values(answers);
+  console.log(`${interviewees} 의 면접을 시작합니다 ( ˙◞˙ )`);
 
-  // 인터뷰어 순서를 섞어요
-  interviewers = shuffleArray(interviewers);
+  // 피면접자 순서를 섞어요
+  interviewees = shuffleArray(interviewees);
 };
 
 const main = async () => {
-  // 인터뷰어 수와 이름 입력받기
-  const { numInterviewers } = await inquirer.prompt([
+  // 피면접자 수와 이름 입력받기
+  const { numInterviewees } = await inquirer.prompt([
     {
       type: "input",
-      name: "numInterviewers",
+      name: "numInterviewees",
       message: "참여한 면접자 수를 입력해주세요:",
       validate: (input) =>
         input !== "" && !isNaN(input) && parseInt(input) > 0
@@ -140,7 +140,7 @@ const main = async () => {
     },
   ]);
 
-  await askForInterviewerNames(parseInt(numInterviewers));
+  await askForIntervieweeNames(parseInt(numInterviewees));
 
   if (!allQuestions.length) {
     const files = getFilesFromDirectory();
@@ -160,16 +160,16 @@ const main = async () => {
     // 여기서 문제 수를 조절해요 (현재 3문제)
     const numElements = Math.min(3, remainingQuestions.length);
 
-    // 현재 인터뷰어 선택
-    const selectedInterviewer = interviewers[currentInterviewerIndex];
+    // 현재 피면접자 선택
+    const selectedInterviewee = interviewees[currentIntervieweeIndex];
 
     // 문제 배열 무작위로 섞어서 문제 3개 뽑기
     const selectedQuestions = selectRandomElements(
-      exceptOwnQuestion(remainingQuestions, selectedInterviewer),
+      exceptOwnQuestion(remainingQuestions, selectedInterviewee),
       numElements
     );
 
-    await waitForEnter(`답변자: ${selectedInterviewer}\n`);
+    await waitForEnter(`답변자: ${selectedInterviewee}\n`);
 
     for (let i = 0; i < selectedQuestions.length; i++) {
       const { question, keyword, author } = selectedQuestions[i];
@@ -186,9 +186,9 @@ const main = async () => {
       (question) => !selectedQuestions.includes(question)
     );
 
-    // 다음 인터뷰어로 이동
-    currentInterviewerIndex =
-      (currentInterviewerIndex + 1) % interviewers.length;
+    // 다음 피면접자로 이동
+    currentIntervieweeIndex =
+      (currentIntervieweeIndex + 1) % interviewees.length;
 
     if (remainingQuestions.length) {
       await waitForEnter();
