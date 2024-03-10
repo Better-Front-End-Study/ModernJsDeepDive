@@ -176,11 +176,11 @@ const main = async () => {
       const { question, keyword, author } = selectedQuestions[i];
 
       await waitForEnter(
-        `❤️${i + 1}번째 질문 입니다.❤️ (${chalk.bold.blue(
-          author
-        )})\n ${chalk.bold.yellow(question)} \n keyword: ${chalk.gray(
-          keyword
-        )} \n `
+        `${chalk.red("❤️")} ${i + 1}번째 질문 ${chalk.red(
+          "❤️"
+        )} (${chalk.bold.blue(author)})\n ${chalk.bold.yellow(
+          question
+        )} \n keyword: ${chalk.gray(keyword)} \n `
       );
     }
 
