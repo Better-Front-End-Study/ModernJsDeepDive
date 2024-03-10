@@ -160,21 +160,25 @@ const main = async () => {
     // 여기서 문제 수를 조절해요 (현재 3문제)
     const numElements = Math.min(3, remainingQuestions.length);
 
-    // 문제 배열 무작위로 섞어서 문제 3개 뽑기
-    const selectedQuestions = selectRandomElements(
-      remainingQuestions,
-      numElements
-    );
-
     // 현재 인터뷰어 선택
     const selectedInterviewer = interviewers[currentInterviewerIndex];
 
-    console.log("답변자: ", selectedInterviewer);
+    // 문제 배열 무작위로 섞어서 문제 3개 뽑기
+    const selectedQuestions = selectRandomElements(
+      exceptOwnQuestion(remainingQuestions, selectedInterviewer),
+      numElements
+    );
+
+    await waitForEnter(`답변자: ${selectedInterviewer}\n`);
 
     for (let i = 0; i < selectedQuestions.length; i++) {
       const { question, keyword, author } = selectedQuestions[i];
 
-      console.log(`❤️${i + 1}번째 질문 입니다.❤️\n :${question} \n keyword: ${keyword} \n 면접관: ${author}`);
+      await waitForEnter(
+        `❤️${
+          i + 1
+        }번째 질문 입니다.❤️ (${author})\n ${question} \n keyword: ${keyword} \n `
+      );
     }
 
     // Remove the selected questions from the remaining questions
