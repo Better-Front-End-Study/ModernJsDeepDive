@@ -162,7 +162,9 @@ const main = async () => {
     console.log("답변자: ", selectedInterviewer);
 
     for (let i = 0; i < selectedQuestions.length; i++) {
-        console.log(`❤️${i + 1}번째 질문 입니다.❤️: `, selectedQuestions[i].question, "\n  keyword: ", selectedQuestions[i].keyword);
+      const { question, keyword, author } = selectedQuestions[i];
+
+      console.log(`❤️${i + 1}번째 질문 입니다.❤️\n :${question} \n keyword: ${keyword} \n 면접관: ${author}`);
     }
 
     // Remove the selected questions from the remaining questions
