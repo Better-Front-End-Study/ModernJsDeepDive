@@ -45,18 +45,18 @@
     "author": "가영"
   },
   {
-    "question": "",
-    "keyword": "",
+    "question": "호이스팅을 실행 컨택스트와 연계하여 설명해주세요",
+    "keyword": "실행 컨텍스트, 호이스팅",
     "author": "수현"
   },
   {
-    "question": "",
-    "keyword": "",
+    "question": "클래스와 생성자 함수로 생성할 때의 차이를 설명해 주세요",
+    "keyword": "클래스, 생성자 함수",
     "author": "수현"
   },
   {
-    "question": "",
-    "keyword": "",
+    "question": "렉시컬 환경이 무엇인가요? ",
+    "keyword": "렉시컬 환경과 스코프",
     "author": "수현"
   },
   {
