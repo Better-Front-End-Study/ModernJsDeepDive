@@ -15,18 +15,18 @@
     "author": "수로"
   },
   {
-    "question": "",
-    "keyword": "",
+    "question": "프로토타입 상속을 사용하는 것과 클래스 상속을 사용하는 것의 차이는 무엇인가요?",
+    "keyword": "클래스, 상속",
     "author": "태희"
   },
   {
-    "question": "",
-    "keyword": "",
+    "question": "클로저가 무엇인지 설명하고 자바스크립트 프로그래밍에서 클로저가 유용할 수 있는 예를 제시해주세요.",
+    "keyword": "클로저",
     "author": "태희"
   },
   {
-    "question": "",
-    "keyword": "",
+    "question": "Rest 파라미터와 ES6의 기본 파라미터 기능을 어떻게 활용할 수 있는지 설명해 주세요.",
+    "keyword": "Rest 파라미터",
     "author": "태희"
   },
   {
