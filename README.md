@@ -8,7 +8,7 @@
 
 |<span style="font-size:16px">테드풀</span>|<span style="font-size:16px">soorokim</span>|<span style="font-size:16px">KoGaYoung</span>|
 |:-:|:-:|:-:|
-|<a href="https://github.com/devtedlee"><img src="https://avatars.githubusercontent.com/devtedlee" height=150 width=150></a>|<a href="https://github.com/soorokim/obsidian/blob/master/study/react-docs/README.md"><img src="https://avatars.githubusercontent.com/soorokim" height=150 width=150></a>|<a href="https://github.com/KoGaYoung"><img src="https://avatars.githubusercontent.com/KoGaYoung" height=150 width=150></a>|<a href="https://github.com/dororodoroddo"><img src="https://avatars.githubusercontent.com/dororodoroddo" height=150 width=150></a>|
+|<a href="https://github.com/devtedlee"><img src="https://avatars.githubusercontent.com/devtedlee" height=150 width=150></a>|<a href="https://github.com/soorokim/obsidian/blob/master/study/%EB%AA%A8%EB%8D%98%20%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8%20Deep%20Dive/README.md"><img src="https://avatars.githubusercontent.com/soorokim" height=150 width=150></a>|<a href="https://github.com/KoGaYoung"><img src="https://avatars.githubusercontent.com/KoGaYoung" height=150 width=150></a>|<a href="https://github.com/dororodoroddo"><img src="https://avatars.githubusercontent.com/dororodoroddo" height=150 width=150></a>|
 |<span style="font-size:16px">**도로로도로또**</span>|<span style="font-size:16px">**허민**</span>||
 |<a href="https://github.com/dororodoroddo"><img src="https://avatars.githubusercontent.com/dororodoroddo" height=150 width=150></a>|<a href="https://github.com/hhhminme"><img src="https://avatars.githubusercontent.com/hhhminme" height=150 width=150></a>||
 
