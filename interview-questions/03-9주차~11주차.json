@@ -1,17 +1,17 @@
 [
   {
-    "question": "",
-    "keyword": "",
+    "question": "메서드를 선언하는 방법에는 여러가지가 있는데 그중 ES6의 메서드 함축 문법을 사용하여 메서드를 선언해야 하는 이유를 알고계신가요?",
+    "keyword": "non-constructor, this 바인딩, 메서드 함축 문법",
     "author": "수로"
   },
   {
-    "question": "",
-    "keyword": "",
+    "question": "콜백 함수 내부의 this 문제는 콜백 함수 내부에서 this가 undefined 경우를 말한다. 발생하는 이유와 해결방법을 알려주세요",
+    "keyword": "화살표함수, this 바인딩",
     "author": "수로"
   },
   {
-    "question": "",
-    "keyword": "",
+    "question": "자바스크립트의 배열과 자료구조에서 이야기하는 배열의 차이점을 알고 계신가요?",
+    "keyword": "자바스크립트 배열의 특징",
     "author": "수로"
   },
   {
