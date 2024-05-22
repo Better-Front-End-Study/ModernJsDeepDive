@@ -45,18 +45,18 @@
     "author": "수현"
   },
   {
-    "question": "",
-    "keyword": "",
+    "question": "setTimeout(print, 3000) 와 같이 코드를 작성할 경우 print 는 3초 후 실행되나요? 자신의 생각을 setTimeout의 동작원리와 함께 말해주세요.",
+    "keyword": "타이머",
     "author": "민"
   },
   {
-    "question": "",
-    "keyword": "",
+    "question": "번들러와 트랜스파일링이 왜 필요한지 설명해주세요. 그리고 이를 위한 대표적인 라이브러리는 무엇이 있고 왜 대표적이라 생각했는지 말해주세요.",
+    "keyword": "모듈, 번들러",
     "author": "민"
   },
   {
-    "question": "",
-    "keyword": "",
+    "question": "async await 와 promise 의 차이는 뭔가요?",
+    "keyword": "Promise",
     "author": "민"
   }
 ]
